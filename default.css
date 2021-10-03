@@ -1,3 +1,19 @@
-h1 {
-  color: green;
+body{
+    background-color: #dddfd4;
+}
+
+h1{
+    color: #173e43;
+    text-align: center;
+}
+
+#ProfilePic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10%;
+    width: 25%;
+    border-radius: 25px;
+    align-content: center;
+    
 }
