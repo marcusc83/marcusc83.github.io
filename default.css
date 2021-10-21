@@ -103,6 +103,12 @@ li a:hover {
   background: #55acee;
   color: white;
 }
+
+.fa-github{
+  background:black ;
+  color: white;
+}
+
 .social_media_buttons {
   float: right;
 }
