@@ -33,12 +33,17 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 16px 16px;
   text-decoration: none;
 }
 
 li a:hover {
   background-color: #111;
+}
+
+.social_media_buttons {
+  float: right;
+  margin: 0px 15px;
 }
 /*Style the different Columns in About page */
 .column1 {
@@ -81,16 +86,30 @@ li a:hover {
   width: 60%;
 } /* End styling for colummns in about page */
 
+/*Beginning of styling for project lay out */
+.flex-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.flex-container > div {
+  width: 30%;
+  height: 30%;
+  margin: 5px;
+}
+.flex_images {
+  height: 50%;
+  width: 50%;
+}
+
 /*Styling for the Font Awesome Icons */
 
 .fa {
-  size: 100%;
-  margin-left: 5px;
   border-radius: 50%;
 }
 
 .fa:hover {
-  opacity: 0.7 !important;
+  opacity: 0.7;
 }
 
 .fa-facebook {
@@ -102,29 +121,21 @@ li a:hover {
 .fa-twitter {
   background: #55acee;
   color: white;
+  size: 50px;
 }
 
-.fa-github{
-  background:black ;
+.fa-github {
+  background: black;
   color: white;
-}
-
-.social_media_buttons {
-  float: right;
 }
 /*End Font awesome styling */
 
-/*Beginning of styling for project lay out */
-.flex-container {
-  display: flex;
-  justify-content: center;
-}
-.flex-container > div {
-  width: 30%;
-  height: 30%;
-  margin: 5px;
-}
-.flex_images {
-  height: 50%;
-  width: 50%;
+/*Footer Styling*/
+.footer {
+  height: fit-content;
+  width: 100%;
+  margin: 0;
+  padding-top: 10px;
+  background-color: goldenrod;
+  text-align: center;
 }
