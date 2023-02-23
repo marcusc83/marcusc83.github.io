@@ -3,6 +3,10 @@ body{
   background-color: #474b4f;
   color: #fffff0;
   padding: 0;
+  background-image: url(images/Dark-theme-Baackground.jfif);
+  background-repeat:repeat-y;
+  background-size:contain;
+
 }
 header{
   background-color: #121212;
@@ -163,7 +167,7 @@ text-align: center;
   color: #ffffff;
   padding: 10px;
   background-color: #86c232;
-  margin: 12px;
+  margin: 0px 12px 5px 0px;
   border-radius: 75%;
   transition: transform 1.5s;
   flex-wrap: wrap;
@@ -178,6 +182,7 @@ text-align: center;
   margin:auto;
   text-align: center;
   border-top-style: solid;
+  margin-top: 5px;
 }
 .footerBottom a{
   color: #ffffff;
