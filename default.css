@@ -189,12 +189,16 @@ text-align: center;
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .intro{
-    flex: 50%;
+  .mainIntro{
+    flex: 65%;
+  }
+  .socialMediaBar{
+    flex: 35%;
   }
   .socialMediaBar .fa{
-    font-size: medium;
+    font-size: small;
     margin-left: -10px;
+    margin-top: 10px;
   }
   .aboutMe{
     flex-direction: column;
