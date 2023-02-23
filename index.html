@@ -11,22 +11,113 @@
   </head>
   
   <body>
-    
-    <!-- Navigation Bar. Same for each page-->
-    <ul class="nav_bar">
-      <li class="nav_bar_items"><a href="index.html">Home</a></li>
-      <li class="nav_bar_items"><a href="projects.html">Projects</a></li>
-      <li class="nav_bar_items"><a href="about.html">About</a></li>
-      <li class="nav_bar_items"><a href="volunteer.html">Volunteering</a></li>
-      <li class="nav_bar_items"><a href="resume.html">My Resume</a></li>
-      <li class="nav_bar_items"><a href="multimedia.html">Multimedia</a></li>
-      <li class="nav_bar_items"><a href="contact.html">Contact</a></li>
-      <li class="social_media_buttons"><a href="https://www.facebook.com/marcus.curran.7" class="fa fa-facebook"></a></li>
-      <li class="social_media_buttons"><a href="https://twitter.com/marcusauce" class="fa fa-twitter"></a></li>
-      <li class="social_media_buttons"><a href="https://github.com/marcusc83" class="fa fa-github"></a></li>
-  </ul>
-  <!-- end Nav Bar-->
-    <h1> This is Marcus Curran's Website!!!</h1>
-    <img src="images/myProfilePic.jpg" class="ProfilePic">
+    <header class="header">
+      <div class="navBar">
+        <a href="#intro"><i class="fa fa-fw fa-home"></i>Home</a>
+        <a href="#projectSection"><i class="fa fa-fw fa-code-fork"></i>Projects</a>
+        <a href="#mySKillsTitle"><i class="fa fa-fw fa-address-card"></i>About</a>
+        <a href="images/Marcus-Curran-Resume.pdf" target="_blank"><i class="fa fa-fw fa-file"></i></i>Resume</a>
+        <a href="javascript:void(0);" class="icon" id="menuIcon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+      </div>
+      <div class="topPic">
+        <h2>Marcus Curran</h2>
+        <img src="images/myProfilePic.jpg" class="profilePic">
+      </div>
+    </header>
+    <div class="intro" id="intro">
+      <div class="socialMediaBar">
+        <a href="#"><i class="fa fa-fw fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-fw fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-fw fa-github"></i></a>
+        <a href="#"><i class="fa fa-fw fa-linkedin"></i></a>
+      </div>
+      <div class="mainIntro">
+        <h1>New Site, Who This!?</h1>
+        <nbsp></nbsp>
+        <h3>
+          Hi, it's me, Marcus Curran, a recent computer science grad looking to
+          make my intro into my future!
+        </h3>
+      </div>
+    </div>
+    <h1 id="mySKillsTitle">My Skill Set</h1>
+    <div class="aboutMe" name="aboutMe" id="aboutMe">
+      <div class="aboutMeLeft">
+        <h1>About Me</h1>
+        <p>
+          I am a recent computer scince graduate of Southwestern College of Winfield, Ks and looking
+          to start my new career as a software developer. 
+        </p>
+        <p>
+          My professional background and experience revolves around skilled trades and supervisory roles. 
+          I worked 8 years as railcar repairman with 4 of those years as the lead/foremen. I have spent the 
+          past 10 years working in the commercial HVAC industry, with the past 2 years as an elected
+          reprsenative for SMART local 29. 
+        </p>
+      </div>
+      <div class="aboutMeRight">
+        <h1>
+          Tools & Programming Languages
+        </h1>
+        <div class="toolsContainers">
+          <h5 class="tools">Visual Studio</h5>
+          <h5 class="tools">Xamarin Forms</h5>
+          <h5 class="tools">Visual Code</h5>
+          <h5 class="tools">Eclipse</h5>
+          <h5 class="tools">Java</h5>
+          <h5 class="tools">C#</h5>
+          <h5 class="tools">Object Oriented Programming</h5>
+          <h5 class="tools">HTML</h5>
+          <h5 class="tools">CSS</h5>
+          <h5 class="tools">Javascript</h5>
+          <h5 class="tools">REACT</h5>
+          <h5 class="tools">SQL</h5>
+          <h5 class="tools">Mongo DB</h5>
+        </div>
+      </div>
+    </div>
+    <div class="projectSection" id="projectSection">
+      <h1 style="text-decoration: underline;">My Projects</h1>
+      <div class="projectContainer">
+        <div class="project">
+          <h3>Das Local</h3>
+          <img class="projectPic" src="images/DasLocal.png">
+          <p>Cross-Platfrom mobile app built with Xamarin Forms</p>
+          <p>Programming Languages: C#, XML</p>
+        </div>
+        <div class="project">
+          <h3>TikTok Clone</h3>
+          <img class="projectPic" src="images/TIKTOKClone.png" id="tikTokPic">
+          <p>Web app built on the MERN stack.</p>
+          <p>Programming Languages: React, NodeJS, MongoDB</p>
+        </div>
+        <div class="project">
+          <h3>Employees DB-Interface</h3>
+          <img class="projectPic" src="images/Employees.png">
+          <p>Windows Form App with SQL Server connection</p>
+          <p>Programming Languages: C#, SQL</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footerContainer">
+        <div class="footerLeft">
+          <h1>Marcus Curran</h1>
+          <h4>Software Developer</h4>
+        </div>
+        <div class="footerRight">
+            <h1>Find Me Here:</h1>
+          <div class="socialFooter">
+            <a href="#"><i class="fa fa-fw fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-fw fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-fw fa-github"></i></a>
+            <a href="#"><i class="fa fa-fw fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footerBottom">
+        <h3>Website Created By: <a href="mailto:marcus@curran-labs.com">marcus@curran-labs.com</a></h3>
+      </div>
+    </div>
   </body>
 </html>
