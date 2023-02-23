@@ -189,16 +189,35 @@ text-align: center;
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .navBar a{
+    color: #ffffff;
+    text-decoration: none;
+    padding:10px 10px;
+    font-size: medium;
+  }
+  .navBar a:hover{
+    font-size: large;
+  }
+  .profilePic{
+    height: 50px;
+    width: 50px;
+    margin-right: auto;
+    padding-right: 5px;
+  }
+  #topPicTitle{
+    display: none;
+  }
+  .header{
+    height:80px;
+  }
   .mainIntro{
     flex: 65%;
-  }
-  .socialMediaBar{
-    flex: 35%;
+    margin-top: auto;
   }
   .socialMediaBar .fa{
-    font-size: small;
+    font-size: smaller;
     margin-left: -10px;
-    margin-top: 10px;
+    padding: 5px;
   }
   .aboutMe{
     flex-direction: column;
